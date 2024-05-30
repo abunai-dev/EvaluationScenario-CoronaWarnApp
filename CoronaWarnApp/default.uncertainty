@@ -38,12 +38,20 @@
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_I_rvUx2iEe-igpklDOFt4A" entityName="S4_1">
     <target href="default.repository#_hWccgLNWEe2o46d27a6tVQ"/>
-    <scenarios id="_ME__wB55Ee-0xpe3f1_PnQ"/>
+    <scenarios id="_ME__wB55Ee-0xpe3f1_PnQ">
+      <target href="default.repository#_iAxTgB55Ee-0xpe3f1_PnQ"/>
+    </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_OAuAQx2iEe-igpklDOFt4A" entityName="S4_2a">
     <target href="default.repository#_ZeEfcLIAEe2fRLFFhL_FWA"/>
+    <scenarios id="_8vzFcB56Ee-0xpe3f1_PnQ">
+      <target href="default.repository#_r68BIB56Ee-0xpe3f1_PnQ"/>
+    </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_E8-0Mx55Ee-0xpe3f1_PnQ" entityName="S4_2b">
     <target href="default.repository#_xPh-8LH_Ee2fRLFFhL_FWA"/>
+    <scenarios id="__ztiYB56Ee-0xpe3f1_PnQ">
+      <target href="default.repository#_qPxf0B56Ee-0xpe3f1_PnQ"/>
+    </scenarios>
   </sources>
 </uncertainty:UncertaintySourceCollection>

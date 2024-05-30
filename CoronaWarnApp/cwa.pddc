@@ -24,6 +24,7 @@ enum Status {
 	Hashed
 	Encrypted
 	Sensitive
+	Leaked
 }
 
 enum Statistics {

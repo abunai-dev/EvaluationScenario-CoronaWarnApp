@@ -82,4 +82,12 @@
     <resourceContainer_AllocationContext href="default.resourceenvironment#_rxvlsR52Ee-0xpe3f1_PnQ"/>
     <assemblyContext_AllocationContext href="default.system#_bmPncB52Ee-0xpe3f1_PnQ"/>
   </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_AT5W8B5-Ee-0xpe3f1_PnQ" entityName="S4_1 Alternative">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_pGlxgLN2Ee2o46d27a6tVQ"/>
+    <assemblyContext_AllocationContext href="default.system#_lQlMgB57Ee-0xpe3f1_PnQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_HR65AB5-Ee-0xpe3f1_PnQ" entityName="S4_2 Alternative">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_Buy2ULN3Ee2o46d27a6tVQ"/>
+    <assemblyContext_AllocationContext href="default.system#_oSnaIB57Ee-0xpe3f1_PnQ"/>
+  </allocationContexts_Allocation>
 </allocation:Allocation>
