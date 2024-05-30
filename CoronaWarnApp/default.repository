@@ -8,6 +8,7 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_30zDwLH0Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.VerificationServerAppInterface" requiredInterface__OperationRequiredRole="_u9rSELH0Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_LykZwLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.CWAServerAppInterface" requiredInterface__OperationRequiredRole="_9fsKALH0Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NBnm0LH1Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.CDNAppInterface" requiredInterface__OperationRequiredRole="_Al330LH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DmoRBR6UEe-_2e7BgEDRtQ" entityName="S4_2 Alternative" requiredInterface__OperationRequiredRole="_nYIkVx56Ee-0xpe3f1_PnQ"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_opWQYLK8Ee2Y1pKtbIeM6Q" describedService__SEFF="_eLmLALKvEe2Y1pKtbIeM6Q">
       <steps_Behaviour xsi:type="seff:StartAction" id="_pa4bALK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_k_kwULd9Ee2lCsB2iGU-8w"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_pa4bAbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_XZGTkLd9Ee2lCsB2iGU-8w"/>
@@ -1228,6 +1229,7 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nyKbsLH2Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.VerificationCWAServerInterface" requiredInterface__OperationRequiredRole="_ebp_ULH2Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cKTLQLH3Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerDBInterface" requiredInterface__OperationRequiredRole="_MSaFgLH3Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-7LxMLKwEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppServer.AnalyticsRequestInterface" requiredInterface__OperationRequiredRole="_3_HW8LKwEe2Y1pKtbIeM6Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_k_R3xR6UEe-_2e7BgEDRtQ" entityName="S4_1 Alternative" requiredInterface__OperationRequiredRole="_e5VBdx55Ee-0xpe3f1_PnQ"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_h4NW8LLAEe2Y1pKtbIeM6Q" describedService__SEFF="_R14YQLK_Ee2Y1pKtbIeM6Q">
       <steps_Behaviour xsi:type="seff:StartAction" id="_h4NW8bLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_x8vUgLmlEe2dIMSi7oNVYQ"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_h4NW8rLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_FGo9kLmmEe2dIMSi7oNVYQ"/>
