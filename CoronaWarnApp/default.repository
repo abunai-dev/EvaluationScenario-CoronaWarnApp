@@ -948,6 +948,7 @@
             </lhs>
             <rhs xsi:type="expressions:False" id="_-HlCpx54Ee-0xpe3f1_PnQ"/>
           </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="tan"/>
         </returnVariableUsage__CallReturnAction>
       </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
@@ -1106,6 +1107,7 @@
             </lhs>
             <rhs xsi:type="expressions:True" id="_qs8rZh53Ee-0xpe3f1_PnQ"/>
           </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="testResult"/>
         </inputVariableUsages__CallAction>
       </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
@@ -1703,6 +1705,14 @@
             </lhs>
             <rhs xsi:type="expressions:True" id="__LhoIbdKEe2lCsB2iGU-8w"/>
           </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_sQ5-MB6HEe-9OP9x0pcj4A">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@2"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@5"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_s8eqxh6HEe-9OP9x0pcj4A"/>
+          </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
@@ -1726,6 +1736,14 @@
               <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@1"/>
             </lhs>
             <rhs xsi:type="expressions:False" id="_sOJJQ7dQEe2lCsB2iGU-8w"/>
+          </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_nr13kB6HEe-9OP9x0pcj4A">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@2"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@5"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_olDXhh6HEe-9OP9x0pcj4A"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
         </localVariableUsages_SetVariableAction>
