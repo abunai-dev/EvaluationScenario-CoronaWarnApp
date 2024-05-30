@@ -20,4 +20,5 @@
   <resourceContainer_ResourceEnvironment id="_E9SLkLN3Ee2o46d27a6tVQ" entityName="FederationGatewayService"/>
   <resourceContainer_ResourceEnvironment id="_HCgLoLN3Ee2o46d27a6tVQ" entityName="SwissCloud"/>
   <resourceContainer_ResourceEnvironment id="_YzICsLN5Ee2o46d27a6tVQ" entityName="CovPassServer"/>
+  <resourceContainer_ResourceEnvironment id="_rxvlsR52Ee-0xpe3f1_PnQ" entityName="Illegal Location"/>
 </resourceenvironment:ResourceEnvironment>

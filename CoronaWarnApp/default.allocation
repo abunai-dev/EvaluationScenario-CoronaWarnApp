@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_JiPBICHdEd6lJo4DCALHMw" entityName="defaultAllocation">
-  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/0"/>
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
   <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
   <allocationContexts_Allocation id="_FAMgMLN4Ee2o46d27a6tVQ" entityName="Allocation_Assembly_CoronaWarnApp">
     <resourceContainer_AllocationContext href="default.resourceenvironment#_g7XcgLN2Ee2o46d27a6tVQ"/>
@@ -77,5 +77,9 @@
   <allocationContexts_Allocation id="_c4WLoLN5Ee2o46d27a6tVQ" entityName="Allocation_Assembly_CovPassIssuerServer">
     <resourceContainer_AllocationContext href="default.resourceenvironment#_YzICsLN5Ee2o46d27a6tVQ"/>
     <assemblyContext_AllocationContext href="default.system#_yhADALNhEe2o46d27a6tVQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_3skY8B52Ee-0xpe3f1_PnQ" entityName="S1_1 Alternative">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_rxvlsR52Ee-0xpe3f1_PnQ"/>
+    <assemblyContext_AllocationContext href="default.system#_bmPncB52Ee-0xpe3f1_PnQ"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

@@ -1074,6 +1074,18 @@
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="testResult"/>
         </inputVariableUsages__CallAction>
       </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_NrZAth53Ee-0xpe3f1_PnQ" entityName="S2_2 Alternative" calledService_ExternalService="_YrN8ULNXEe2o46d27a6tVQ" role_ExternalService="_O5NTMLH4Ee2fRLFFhL_FWA">
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_cAEAMB53Ee-0xpe3f1_PnQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@2"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@4"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_qs8rZh53Ee-0xpe3f1_PnQ"/>
+          </variableCharacterisation_VariableUsage>
+        </inputVariableUsages__CallAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-xK_sLNXEe2o46d27a6tVQ" describedService__SEFF="_4AD4QLNXEe2o46d27a6tVQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="__NZBoLNXEe2o46d27a6tVQ" successor_AbstractAction="_gK7oULm8Ee2dIMSi7oNVYQ"/>

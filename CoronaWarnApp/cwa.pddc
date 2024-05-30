@@ -15,6 +15,7 @@ enum Location {
 	FederationGatewayService
 	SwissCloud
 	CovPassServer
+	IllegalLocation
 }
 
 enum Status {

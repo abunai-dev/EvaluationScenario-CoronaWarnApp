@@ -120,4 +120,23 @@
     </characteristics>
     <usagescenario href="default.usagemodel#_K0XpkLZ-Ee2xLZp9hElpuA"/>
   </assignee>
+  <assignee xsi:type="nodecharacteristics:ResourceAssignee" id="_iobtQR51Ee-0xpe3f1_PnQ" entityName="S1_2 Alternative">
+    <characteristics id="_mQuCkB51Ee-0xpe3f1_PnQ">
+      <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+      <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@8"/>
+    </characteristics>
+  </assignee>
+  <assignee xsi:type="nodecharacteristics:ResourceAssignee" id="_0hDUoR51Ee-0xpe3f1_PnQ" entityName="S2_1 Alternative">
+    <characteristics id="_8d_WAB51Ee-0xpe3f1_PnQ">
+      <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+      <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@8"/>
+    </characteristics>
+  </assignee>
+  <assignee xsi:type="nodecharacteristics:ResourceAssignee" id="_t7HF8R52Ee-0xpe3f1_PnQ">
+    <characteristics id="_wN9SUB52Ee-0xpe3f1_PnQ">
+      <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+      <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@8"/>
+    </characteristics>
+    <resourcecontainer href="default.resourceenvironment#_rxvlsR52Ee-0xpe3f1_PnQ"/>
+  </assignee>
 </nodecharacteristics:Assignments>

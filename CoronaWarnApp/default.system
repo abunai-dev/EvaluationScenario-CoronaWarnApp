@@ -57,6 +57,9 @@
   <assemblyContexts__ComposedStructure id="_dlk8gLNiEe2o46d27a6tVQ" entityName="Assembly_VerificationServer">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_lPVWwLHvEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_bmPncB52Ee-0xpe3f1_PnQ" entityName="S1_1 Alternative">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+  </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_DXTm4LNkEe2o46d27a6tVQ" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_HRCG8LNjEe2o46d27a6tVQ" assemblyContext_ProvidedDelegationConnector="_Z60-gLNhEe2o46d27a6tVQ">
     <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_6AMbsLKhEe2Y1pKtbIeM6Q"/>
   </connectors__ComposedStructure>
