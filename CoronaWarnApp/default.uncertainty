@@ -26,14 +26,24 @@
   </sources>
   <sources xsi:type="pcm:PCMBehaviorUncertaintySource" id="_gK7oULm8Ee2dIMSi7oNVYQ" entityName="S3_1">
     <target href="default.repository#_gK7oULm8Ee2dIMSi7oNVYQ"/>
+    <scenarios id="_R96wYB54Ee-0xpe3f1_PnQ">
+      <target href="default.repository#_DtcUaR54Ee-0xpe3f1_PnQ"/>
+    </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMConnectorUncertaintySourceInExternalCall" id="_wOClNB2iEe-igpklDOFt4A" entityName="S3_2">
     <target href="default.repository#_kSKnoLm1Ee2dIMSi7oNVYQ"/>
+    <scenarios id="_AF5wgB55Ee-0xpe3f1_PnQ">
+      <target href="default.repository#_f19eRh54Ee-0xpe3f1_PnQ"/>
+    </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_I_rvUx2iEe-igpklDOFt4A" entityName="S4_1">
     <target href="default.repository#_hWccgLNWEe2o46d27a6tVQ"/>
+    <scenarios id="_ME__wB55Ee-0xpe3f1_PnQ"/>
   </sources>
-  <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_OAuAQx2iEe-igpklDOFt4A" entityName="S4_2">
+  <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_OAuAQx2iEe-igpklDOFt4A" entityName="S4_2a">
     <target href="default.repository#_ZeEfcLIAEe2fRLFFhL_FWA"/>
+  </sources>
+  <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_E8-0Mx55Ee-0xpe3f1_PnQ" entityName="S4_2b">
+    <target href="default.repository#_xPh-8LH_Ee2fRLFFhL_FWA"/>
   </sources>
 </uncertainty:UncertaintySourceCollection>

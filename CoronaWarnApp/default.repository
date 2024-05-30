@@ -928,6 +928,28 @@
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="tan"/>
         </inputVariableUsages__CallAction>
       </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_f19eRh54Ee-0xpe3f1_PnQ" entityName="S3_2 Alternative" calledService_ExternalService="_nfx0sLLGEe2Y1pKtbIeM6Q" role_ExternalService="_rcVw4LLGEe2Y1pKtbIeM6Q">
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_tQAFb7m1Ee2dIMSi7oNVYQ"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_tQAFcLm1Ee2dIMSi7oNVYQ">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="tan"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="tan"/>
+        </inputVariableUsages__CallAction>
+        <returnVariableUsage__CallReturnAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_6IsLMB54Ee-0xpe3f1_PnQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@2"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@0"/>
+            </lhs>
+            <rhs xsi:type="expressions:False" id="_-HlCpx54Ee-0xpe3f1_PnQ"/>
+          </variableCharacterisation_VariableUsage>
+        </returnVariableUsage__CallReturnAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_QQ8CMLNYEe2o46d27a6tVQ" describedService__SEFF="_FQGK8LNYEe2o46d27a6tVQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_Qg5JwLNYEe2o46d27a6tVQ" successor_AbstractAction="_AnZ-4Lm2Ee2dIMSi7oNVYQ"/>
@@ -1178,6 +1200,19 @@
             <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_Brcxw7m9Ee2dIMSi7oNVYQ">
               <namedReference xsi:type="stoex:VariableReference" referenceName="stats"/>
             </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_DtcUaR54Ee-0xpe3f1_PnQ" entityName="S3_1 Alternative">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_LFLW8B54Ee-0xpe3f1_PnQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@2"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@4"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_QzC4th54Ee-0xpe3f1_PnQ"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
         </localVariableUsages_SetVariableAction>
