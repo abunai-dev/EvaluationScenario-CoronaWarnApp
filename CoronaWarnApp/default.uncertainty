@@ -2,55 +2,55 @@
 <uncertainty:UncertaintySourceCollection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pcm="http://abunai.dev/uncertainty/pcm" xmlns:uncertainty="http://abunai.dev/uncertainty" id="_u7pbIB2gEe-igpklDOFt4A">
   <sources xsi:type="pcm:PCMComponentUncertaintySource" id="_qNmQRh2jEe-igpklDOFt4A" entityName="S1_1">
     <target href="default.system#__L0IwLNhEe2o46d27a6tVQ"/>
-    <scenarios id="_XxHwAB52Ee-0xpe3f1_PnQ">
+    <scenarios id="_XxHwAB52Ee-0xpe3f1_PnQ" entityName="S1_1-Alternative">
       <target href="default.system#_bmPncB52Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMExternalUncertaintySourceInResource" id="_vgDIsB2gEe-igpklDOFt4A" entityName="S1_2">
     <target href="default.nodecharacteristics#_lqAUwLCAEe6776fvZiib_A"/>
-    <scenarios id="_XBbBMB2hEe-igpklDOFt4A">
+    <scenarios id="_XBbBMB2hEe-igpklDOFt4A" entityName="S1_2-Alternative">
       <target href="default.nodecharacteristics#_iobtQR51Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMExternalUncertaintySourceInResource" id="_jSi0kB2hEe-igpklDOFt4A" entityName="S2_1">
     <target href="default.nodecharacteristics#_kERtELCAEe6Z0_dj6sM3mw"/>
-    <scenarios id="_y8d8cB51Ee-0xpe3f1_PnQ">
+    <scenarios id="_y8d8cB51Ee-0xpe3f1_PnQ" entityName="S2_1-Alternative">
       <target href="default.nodecharacteristics#_0hDUoR51Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMConnectorUncertaintySourceInExternalCall" id="_-oRaJB2iEe-igpklDOFt4A" entityName="S2_2">
     <target href="default.repository#_YIPkQLm8Ee2dIMSi7oNVYQ"/>
-    <scenarios id="_tiyQEB53Ee-0xpe3f1_PnQ">
+    <scenarios id="_tiyQEB53Ee-0xpe3f1_PnQ" entityName="S2_2-Alternative">
       <target href="default.repository#_NrZAth53Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMBehaviorUncertaintySource" id="_gK7oULm8Ee2dIMSi7oNVYQ" entityName="S3_1">
-    <target href="default.repository#_gK7oULm8Ee2dIMSi7oNVYQ"/>
-    <scenarios id="_R96wYB54Ee-0xpe3f1_PnQ">
+    <target href="default.repository#_3OJsULm8Ee2dIMSi7oNVYQ"/>
+    <scenarios id="_R96wYB54Ee-0xpe3f1_PnQ" entityName="S3_1-Alterative">
       <target href="default.repository#_DtcUaR54Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMConnectorUncertaintySourceInExternalCall" id="_wOClNB2iEe-igpklDOFt4A" entityName="S3_2">
     <target href="default.repository#_kSKnoLm1Ee2dIMSi7oNVYQ"/>
-    <scenarios id="_AF5wgB55Ee-0xpe3f1_PnQ">
+    <scenarios id="_AF5wgB55Ee-0xpe3f1_PnQ" entityName="S3_2-Alternative">
       <target href="default.repository#_f19eRh54Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_I_rvUx2iEe-igpklDOFt4A" entityName="S4_1">
     <target href="default.repository#_hWccgLNWEe2o46d27a6tVQ"/>
-    <scenarios id="_ME__wB55Ee-0xpe3f1_PnQ">
+    <scenarios id="_ME__wB55Ee-0xpe3f1_PnQ" entityName="S4_1-Alternative">
       <target href="default.repository#_iAxTgB55Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_OAuAQx2iEe-igpklDOFt4A" entityName="S4_2a">
     <target href="default.repository#_ZeEfcLIAEe2fRLFFhL_FWA"/>
-    <scenarios id="_8vzFcB56Ee-0xpe3f1_PnQ">
+    <scenarios id="_8vzFcB56Ee-0xpe3f1_PnQ" entityName="S4_2a-Alternative">
       <target href="default.repository#_r68BIB56Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
   <sources xsi:type="pcm:PCMInterfaceUncertaintySource" id="_E8-0Mx55Ee-0xpe3f1_PnQ" entityName="S4_2b">
     <target href="default.repository#_xPh-8LH_Ee2fRLFFhL_FWA"/>
-    <scenarios id="__ztiYB56Ee-0xpe3f1_PnQ">
+    <scenarios id="__ztiYB56Ee-0xpe3f1_PnQ" entityName="S4_2b-Alternative">
       <target href="default.repository#_qPxf0B56Ee-0xpe3f1_PnQ"/>
     </scenarios>
   </sources>
