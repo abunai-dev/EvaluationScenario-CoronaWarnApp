@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ABUNAI Corona-Warn-App Evaluation Scenario
+Bundle-SymbolicName: dev.abunai.evaluationscenario.cwa
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime
+Automatic-Module-Name: dev.abunai.evaluationscenario.cwa
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: dev.abunai.evaluationscenario.cwa
+ 

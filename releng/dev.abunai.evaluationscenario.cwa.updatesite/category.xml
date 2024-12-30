@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="dev.abunai.evaluationscenario.cwa.feature">
+      <category name="dev.abunai.evaluationscenario.cwa.category"/>
+   </feature>
+   <category-def name="dev.abunai.evaluationscenario.cwa.category" label="ABUNAI Corona-Warn-App Evaluation Scenario">
+   </category-def>
+</site>
+

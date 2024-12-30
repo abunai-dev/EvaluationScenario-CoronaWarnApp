@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="dev.abunai.evaluationscenario.cwa.feature"
+      label="ABUNAI Corona-Warn-App Evaluation Scenario Feature"
+      version="1.0.0.qualifier"
+      plugin="org.palladiosimulator.branding"
+      license-feature="org.palladiosimulator.license.epl2"
+      license-feature-version="1.0.0">
+
+   <requires>
+      <import plugin="org.dataflowanalysis.pcm.extension.dictionary.characterized"/>
+      <import plugin="org.dataflowanalysis.pcm.extension.dddsl"/>
+      <import plugin="org.dataflowanalysis.pcm.extension.model"/>
+      <import plugin="org.dataflowanalysis.pcm.extension.nodecharacteristics"/>
+   </requires>
+
+   <plugin
+         id="dev.abunai.evaluationscenario.cwa"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
