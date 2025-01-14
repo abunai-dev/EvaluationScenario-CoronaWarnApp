@@ -27,11 +27,11 @@ In the following, we show the repository diagram and the allocation diagram. Cli
 
 ### Repository diagram
 
-[![Repository diagram](repository.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/repository.png)
+[![Repository diagram](docs/repository.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/docs/repository.png)
 
 ### Allocation diagram
 
-[![Allocation diagram](allocation.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/allocation.png)
+[![Allocation diagram](docs/allocation.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/docs/allocation.png)
 
 ## More information
 
