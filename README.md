@@ -13,12 +13,12 @@ The Corona Warn App is one of six scenarios used in the initial evaluation of th
 
 | Name                | # Component | # SEFF | # TFG | # Vertex | # Uncertainty | # Violation |
 |---------------------|-------------:|--------:|-------:|----------:|----------------:|--------------:|
-| TravelPlanner       | 7           | 9      | 2     | 42       | 1              | 1            |
-| DistanceTracker     | 8           | 10     | 1     | 29       | 1              | 1            |
-| OnlineShop          | 2           | 6      | 3     | 44       | 4              | 24           |
-| CoronaWarnApp       | 21          | 58     | 14    | 687      | 9              | 163          |
-| MobilityAsAService  | 18          | 49     | 8     | 200      | 5              | 6            |
-| JPlag               | 3           | 5      | 3     | 65       | 4              | 26           |
+| [TravelPlanner](https://github.com/DataFlowAnalysis/DataFlowAnalysis)       | 7           | 9      | 2     | 42       | 1              | 1            |
+| [DistanceTracker](https://github.com/DataFlowAnalysis/DataFlowAnalysis)     | 8           | 10     | 1     | 29       | 1              | 1            |
+| [OnlineShop](https://github.com/abunai-dev/EvaluationScenario-OnlineShop)          | 2           | 6      | 3     | 44       | 4              | 24           |
+| **[CoronaWarnApp](https://github.com/abunai-dev/EvaluationScenario-CoronaWarnApp)**       | **21**          | **58**     | **14**    | **687**      | **9**              | **163**          |
+| [MobilityAsAService](https://github.com/abunai-dev/EvaluationScenario-MaaS)  | 18          | 49     | 8     | 200      | 5              | 6            |
+| [JPlag](https://github.com/abunai-dev/EvaluationScenario-JPlag)               | 3           | 5      | 3     | 65       | 4              | 26           |
 
 For further information, please see the [dissertation](https://doi.org/10.5445/IR/1000178700) *Chapter 8* on the evaluation scenarios. There, the following figure summarizes the architecture of this evaluation scenario:
 
@@ -58,7 +58,3 @@ In the following, we show the repository diagram and the allocation diagram. Cli
 ### Allocation diagram
 
 [![Allocation diagram](docs/allocation.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/docs/allocation.png)
-
-## More information
-
-For more information, please refer to [https://abunai.dev](https://abunai.dev).
