@@ -16,7 +16,7 @@ The Corona Warn App is one of six scenarios used in the initial evaluation of th
 | [TravelPlanner](https://github.com/DataFlowAnalysis/DataFlowAnalysis)       | 7           | 9      | 2     | 42       | 1              | 1            |
 | [DistanceTracker](https://github.com/DataFlowAnalysis/DataFlowAnalysis)     | 8           | 10     | 1     | 29       | 1              | 1            |
 | [OnlineShop](https://github.com/abunai-dev/EvaluationScenario-OnlineShop)          | 2           | 6      | 3     | 44       | 4              | 24           |
-| **[CoronaWarnApp](https://github.com/abunai-dev/EvaluationScenario-CoronaWarnApp)**       | **21**          | **58**     | **14**    | **687**      | **9**              | **163**          |
+| *[CoronaWarnApp](https://github.com/abunai-dev/EvaluationScenario-CoronaWarnApp)*       | *21*          | *58*     | *14*    | *687*      | *9*              | *163*          |
 | [MobilityAsAService](https://github.com/abunai-dev/EvaluationScenario-MaaS)  | 18          | 49     | 8     | 200      | 5              | 6            |
 | [JPlag](https://github.com/abunai-dev/EvaluationScenario-JPlag)               | 3           | 5      | 3     | 65       | 4              | 26           |
 
