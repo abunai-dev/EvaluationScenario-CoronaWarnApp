@@ -1,4 +1,30 @@
-# Case Study: Corona Warn App
+<p align="center"> 
+    <h3 align="center"><img alt="ABUNAI" src="abunai-art-240.png"><br>
+    Evaluation Scenario: Corona Warn App</h3>
+</p>
+<p>&nbsp;</p>
+
+## ABUNAI - Evaluation Scenario: Corona Warn App
+
+[![xDECAF analysis framework](https://img.shields.io/badge/xDECAF%20analysis%20framework-v4.0.0-orange?style=flat-square&logo=eclipse&logoColor=white)](https://dataflowanalysis.org)
+[![Dissertation](https://img.shields.io/badge/Dissertation-Available-green?style=flat-square&logo=GitBook&logoColor=white)](https://doi.org/10.5445/IR/1000178700)
+
+The Corona Warn App is one of six scenarios used in the initial evaluation of the ABUNAI approach to uncertainty-aware confidentiality analysis. Please see the following table for an overview of the criteria of all evaluation scenarios:
+
+| Name                | # Component | # SEFF | # TFG | # Vertex | # Uncertainty | # Violation |
+|---------------------|-------------:|--------:|-------:|----------:|----------------:|--------------:|
+| TravelPlanner       | 7           | 9      | 2     | 42       | 1              | 1            |
+| DistanceTracker     | 8           | 10     | 1     | 29       | 1              | 1            |
+| OnlineShop          | 2           | 6      | 3     | 44       | 4              | 24           |
+| CoronaWarnApp       | 21          | 58     | 14    | 687      | 9              | 163          |
+| MobilityAsAService  | 18          | 49     | 8     | 200      | 5              | 6            |
+| JPlag               | 3           | 5      | 3     | 65       | 4              | 26           |
+
+For further information, please see the [dissertation](https://doi.org/10.5445/IR/1000178700) *Chapter 8* on the evaluation scenarios. There, the following figure summarizes the architecture of this evaluation scenario:
+
+![Architecture](architecture.png)
+
+## Overview
 
 This repository contains [Palladio](https://www.palladio-simulator.com/) software architecture models based on the German [Corona Warn App](https://www.coronawarn.app/en/). This app represents a large enterprise system of systems that has been commissioned by the German government, developed by SAP and Deutsche Telekom during the COVID-19 pandemic, and downloaded more than 48 million times. The contact tracing app exchanges keys between users via Bluetooth and handles highly sensitive data like COVID-19 test results.
 
